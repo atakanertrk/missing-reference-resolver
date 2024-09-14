@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>D:\references\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="ReferenceManagerConsoleApp">
+      <HintPath>D:\references\ReferenceManagerConsoleApp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
+<!--
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\nonexistingpath\ReferenceManagerConsoleApp.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>D:\nonexistingpath\AutoMapper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
+-->
